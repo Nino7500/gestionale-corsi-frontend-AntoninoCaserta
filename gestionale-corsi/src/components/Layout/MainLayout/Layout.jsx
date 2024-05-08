@@ -5,10 +5,10 @@ import { Footer } from "../../Footer/Footer";
 export function Layout(){
     const outlet = useOutlet();
     return (
-        <>
+        <div style={{ paddingBottom: '100px' }}>
         <Navbar />
         {outlet}
         <Footer/>
-        </>
+        </div>
     )
 }

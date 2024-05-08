@@ -1,5 +1,14 @@
-
 .customCard {
-    background-color: #8BAAAD !important;
-    border-radius: 1rem !important; 
-  }
+  background-color: #8BAAAD !important;
+  border-radius: 1rem !important; 
+}
+
+.description {
+  height: 60px; /* Altezza fissa */
+  overflow: hidden; /* Nasconde il testo oltre l'altezza specificata */
+  transition: height 0.3s ease; /* Aggiunge un'animazione di transizione */
+}
+
+.expanded {
+  height: auto; /* Espande l'altezza per mostrare il testo completo */
+}

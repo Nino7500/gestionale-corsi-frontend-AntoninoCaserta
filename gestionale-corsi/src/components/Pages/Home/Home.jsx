@@ -4,14 +4,6 @@ import styles from "./home.module.css";
 import { useContext } from "react";
 import { AuthContext } from "../../context/AuthContext/AuthContext";
 
-/*
-inserire all'interno della home per provare il login (in AuthContextProvider sostituire le stringhe vuote con valori casuali per prova)
-<div>{user.firstName}</div>
-        <div>{user.lastName}</div>
-        <div>{user.email}</div>
-        <button onClick={handleClick}>logga</button>
-
-*/
 
 export function Home() {
   const { user, setUser } = useContext(AuthContext);
@@ -39,7 +31,7 @@ export function Home() {
             <p>
               Sei già iscritto? Fai il login
             </p>
-            <button className="btn btn-dark">Login</button>
+            <NavLink to="/login" className="btn btn-dark">Login</NavLink>
           </div>
         </div>
         <div className="col text-center">
@@ -47,7 +39,7 @@ export function Home() {
             <p>
               Non sei ancora iscritto? Registrati!
             </p>
-            <button className="btn btn-dark">Registrati</button>
+            <NavLink to="/registrazione" className="btn btn-dark">Registrati</NavLink>
           </div>
         </div>
       </div>

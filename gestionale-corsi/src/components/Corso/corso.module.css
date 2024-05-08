@@ -15,8 +15,7 @@
     background-color: #1c3738 !important;
     color: rgb(255, 255, 255) !important;
   }
-  .para {
-    background-color: #ffffff;
-    border-radius: 1rem;
-    padding: 1rem;
+  .space {
+    margin-left: 0.8rem;
   }
+ 
