@@ -5,8 +5,8 @@ import { Home } from './components/Pages/Home/Home';
 import { Corsi } from './components/Pages/Corsi/Corsi';
 import { Corso } from './components/Corso/Corso';
 import { NotFound } from './components/Pages/NotFound/NotFound';
-import { Login } from './components/Pages/Login/Login'; // Aggiungi questa linea
-import { Registrazione } from './components/Pages/Registrazione/Registrazione'; // Aggiungi questa linea
+import { Login } from './components/Pages/Login/Login';
+import { Registrazione } from './components/Pages/Registrazione/Registrazione'; 
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import "bootstrap-icons/font/bootstrap-icons.css"
